@@ -8,6 +8,7 @@ function App() {
       <Navbar />
       <Jumbotron />
       <Forms />
+      <Forms />
     </div>
   );
 }
