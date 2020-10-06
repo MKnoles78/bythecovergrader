@@ -1,11 +1,12 @@
 import React from 'react';
+import buythecover from '../images/buythecover.png'
 
 const Navbar = () => {
     return (
         <div>
         <nav class="navbar navbar-light bg-light">
           <a class="navbar-brand" href="#">
-            <img src="/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy" />
+            <img src={buythecover} width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy" />
             Buy the Cover
           </a>
         </nav>
