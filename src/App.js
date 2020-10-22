@@ -20,8 +20,6 @@ function App() {
           <Grader />
         </Route>
       <Jumbotron />
-      <Forms />
-      <Forms />
       </Switch>
       </Router>
     </div>
