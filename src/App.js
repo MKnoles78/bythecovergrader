@@ -5,6 +5,7 @@ import Navbar from './components/Navbar.jsx'
 import Forms from './components/Forms'
 import Home from './containers/Home'
 import Grader from './containers/Grader'
+import ArtistSpotlight from './containers/ArtistSpotlight'
 
 
 function App() {
@@ -18,7 +19,10 @@ function App() {
         </Route>
         < Route exact path="/grader">
           <Grader />
-        </Route>
+        </Route>        
+        < Route exact path="/artistspotlight">
+          <ArtistSpotlight />
+        </Route>        
       <Jumbotron />
       </Switch>
       </Router>
