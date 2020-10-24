@@ -26,7 +26,10 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/artistspotlight">Artist Spotlight</a>
-              </li>
+              </li>  
+              <li className="nav-item">
+                <a className="nav-link" href="/writerspotlight">Writer Spotlight</a>
+              </li> 
             </ul>
           </div>
         </div>
