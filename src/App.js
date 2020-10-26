@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Jumbotron from './components/Jumbotron.jsx';
-import Navbar from './components/Navbar.jsx'
-import Forms from './components/Forms'
-import Home from './containers/Home'
-import Grader from './containers/Grader'
-import ArtistSpotlight from './containers/ArtistSpotlight'
+import Navbar from './components/Navbar.jsx';
+import Home from './containers/Home';
+import Grader from './containers/Grader';
+import ArtistSpotlight from './containers/ArtistSpotlight';
+import WriterSporlight from './containers/WriterSpotlight';
 
 
 function App() {
@@ -22,7 +22,10 @@ function App() {
         </Route>        
         < Route exact path="/artistspotlight">
           <ArtistSpotlight />
-        </Route>        
+        </Route> 
+        < Route exact path="/writerspotlight">
+          <WriterSpotlight />
+        </Route>     
       <Jumbotron />
       </Switch>
       </Router>
