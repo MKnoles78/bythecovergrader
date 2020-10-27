@@ -5,7 +5,7 @@ import Navbar from './components/Navbar.jsx';
 import Home from './containers/Home';
 import Grader from './containers/Grader';
 import ArtistSpotlight from './containers/ArtistSpotlight';
-import WriterSporlight from './containers/WriterSpotlight';
+import WriterSpotlight from './containers/WriterSpotlight';
 
 
 function App() {
