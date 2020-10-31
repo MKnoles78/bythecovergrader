@@ -1,17 +1,14 @@
 import React from 'react';
-import buythecover from '../images/buythecover.png'
+import buythecover from '../images/bythecover.png'
 
 const Navbar = () => {
     return (
         <div>
-        {/* <nav className="navbar navbar-light bg-light">
-          <a className="navbar-brand" href="#">
-            <img src={buythecover} width="30" height="30" className="d-inline-block align-top" alt="" loading="lazy" />
-            Buy the Cover
-          </a>
-        </nav> */}        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
-          <a className="navbar-brand" href="/" id="logo">Comics by the Cover</a>
+          <a className="navbar-brand" href="/" id="logo">
+          <img src={buythecover} width="150" height="150" className="d-inline-block align-top" alt="" loading="lazy" />Comics by the Cover</a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
             aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
