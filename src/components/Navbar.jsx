@@ -25,10 +25,10 @@ const Navbar = () => {
                 <a className="nav-link" href="/polls">Polls |</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/artistspotlight">Artist Spotlight</a>
+                <a className="nav-link" href="/artistspotlight">Artist Spotlight |</a>
               </li>  
               <li className="nav-item">
-                <a className="nav-link" href="/writerspotlight">Writer Spotlight</a>
+                <a className="nav-link" href="/writerspotlight">Writer Spotlight |</a>
               </li> 
               <li className="nav-item">
                 <a className="nav-link" href="/store">Store</a>
