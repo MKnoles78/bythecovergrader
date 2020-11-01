@@ -6,6 +6,8 @@ import Home from './containers/Home';
 import Grader from './containers/Grader';
 import ArtistSpotlight from './containers/ArtistSpotlight';
 import WriterSpotlight from './containers/WriterSpotlight';
+import Store from './containers/Store';
+import Polls from './containers/Polls';
 
 
 function App() {
@@ -19,12 +21,18 @@ function App() {
         </Route>
         < Route exact path="/grader">
           <Grader />
-        </Route>        
+        </Route>
+        < Route exact path="/polls">
+          <Polls />
+        </Route>         
         < Route exact path="/artistspotlight">
           <ArtistSpotlight />
         </Route> 
         < Route exact path="/writerspotlight">
           <WriterSpotlight />
+        </Route> 
+        < Route exact path="/store">
+          <Store />
         </Route>     
       <Jumbotron />
       </Switch>
