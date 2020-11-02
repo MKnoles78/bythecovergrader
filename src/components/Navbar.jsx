@@ -1,5 +1,5 @@
 import React from 'react';
-import buythecover from '../images/bythecover.png'
+import buythecover from '../images/bythecover1.png'
 
 const Navbar = () => {
     return (
@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
           <a className="navbar-brand" href="/" id="logo">
-          <img src={buythecover} width="150" height="150" className="d-inline-block align-top" alt="" loading="lazy" />Comics by the Cover</a>
+          <img src={buythecover} width="250" height="150" className="d-inline-block align-top" alt="" loading="lazy" /></a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
             aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
