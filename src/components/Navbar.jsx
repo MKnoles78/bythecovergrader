@@ -16,7 +16,10 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
               <li className="nav-item">
-                <a className="nav-link" href="/">Grader |</a>
+                <a className="nav-link" href="/">Home |</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/grader">Grader |</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/polls">Polls |</a>

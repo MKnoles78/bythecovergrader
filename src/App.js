@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Jumbotron from './components/Jumbotron.jsx';
 import Navbar from './components/Navbar.jsx';
 import Home from './containers/Home';
 import Grader from './containers/Grader';
@@ -15,7 +14,6 @@ function App() {
     <div className="App">
       <Router>
       <Navbar />
-      <Jumbotron />
       <Switch>
         <Route exact path="/">
           <Home/>

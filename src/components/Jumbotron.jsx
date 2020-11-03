@@ -1,5 +1,4 @@
 import React from 'react';
-import buythecover from '../images/bythecover1.png';
 import image1 from '../images/image1.png';
 import image2 from '../images/image2.jpeg';
 import image3 from '../images/image3.png';
